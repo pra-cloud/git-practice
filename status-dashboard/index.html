@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYPERZOD SERVICE STATUS DASHBOARD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .links-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .link-card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: left;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>SRE Dashboard</h1>
+    <div class="links-container">
+        <div class="link-card">
+            <h2><a href="https://www.cloudflarestatus.com/" target="_blank">Cloudflare Status</a></h2>
+        </div>
+        <div class="link-card">
+            <h2><a href="https://health.aws.amazon.com/health/status" target="_blank">AWS Health Status</a></h2>
+        </div>
+        <div class="link-card">
+            <h2><a href="https://status.laravel.com/" target="_blank">Laravel Status</a></h2>
+        </div>
+        <div class="link-card">
+            <h2><a href="https://bitbucket.status.atlassian.com/" target="_blank">Bitbucket Status</a></h2>
+        </div>
+        <div class="link-card">
+            <h2><a href="https://status.digitalocean.com/" target="_blank">DigitalOcean Status</a></h2>
+        </div>
+        <div class="link-card">
+            <h2><a href="https://status.grafana.com/#" target="_blank">Grafana Status</a></h2>
+        </div>
+    </div>
+</body>
+</html>
